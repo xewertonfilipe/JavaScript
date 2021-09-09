@@ -4,8 +4,8 @@ function handleMouseMove(event) {
     console.log(clientX, clientY);
   }
   
-  // Defini uma constante para cada propriedade
-  // dentro de event, que tiver o mesmo nome que a constante.
+  // Define uma constante para cada propriedade
+  // dentro de event, que tenha o mesmo nome que a constante.
   function handleMouseMove(event) {
     const { clientX, clientY } = event;
     console.log(clientX, clientY);
